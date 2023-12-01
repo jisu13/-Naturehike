@@ -1,0 +1,235 @@
+@media all and (min-width:690px){
+    h4{font-size: 18px;}
+
+    .bg_mo{display: none;}
+    main{background-color: #1f1c1a;}
+    .mpic{
+        height: 600px;
+        background-image: url(../imges/bbg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .mWrap img{height: 100%;}
+    .mWrap .txt{max-width: 42%;}
+    .mWrap h2{font-size: 2.6rem;}
+    .mWrap p{display: block;}
+    /*  */
+
+    .swiper-slide{margin: 0 10px;}
+    .swiper-slide .txt p{display: block;  color: #fff;}
+
+    /*  */
+    .s2 .pack{width: calc(33.33% - 2%); margin-bottom: 0; }
+    .s2 .pack2{margin-left: unset;}
+ 
+
+    /*  */
+    .s3 .guide .icon{width: 64px; height: 64px;}
+    .s3 .guide .icon img{width: 24px;}
+    .guide .title h4 {
+        display: block; 
+        width: calc(100% - 80px);
+        margin: 0 16px;
+        font-size: 16px;
+    }
+    .guide li .title a{
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    /*  */
+    .fWrap{display: flex; justify-content: space-between;}
+    .f2{width: 60%;}
+    .f3{width: calc(30% - 2%);}
+
+ 
+ 
+}
+
+
+
+
+
+
+@media all and (min-width:1320px){
+    .menu, .bWrap, nav .util, nav .sns, .plus{display: none;}
+    
+    h3{ font-size: 32px;}
+
+    header{
+        border-bottom: 2px solid #e10b2a;
+    }
+    .hWrap{display: flex;}
+    h1{width: 10%;}
+    h1 img{width: 80px;}
+    
+    /* 검색바 */
+    .hWrap form{
+        width: 20%;
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 70px;
+    }
+
+    form input{
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        border: 0;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 0 40px 0 15px;
+        background-color: #f1f1f5;
+    }
+    form button{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+    .srch button img{width: 18px;}
+
+    /*  */
+    aside{
+        position: unset; 
+        width: calc(90% - (20% + 70px));
+        overflow-y: unset;
+    }
+
+    nav{padding: 0; font-size: 15px;}
+    .gnb{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between; 
+        width: 70%;
+
+    }
+    .gnb li{padding: 0;}
+    .gnb > li{
+        border: 0;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: calc((100% / 5) - 20px);
+    }
+    .gnb button{text-align: center;color: #e10b2a;}
+    /*  */
+   
+    .product:hover .con{display: block;}
+    .gnb .product{position: unset;}
+    .product .con{
+        font-size: 1em;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        box-sizing: border-box;
+        background-color:#fff;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+    .gnb .subtitle{width: 100%; display: flex;} 
+    .gnb .subtitle  li{
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        border: 0;
+        margin-right: 10px;
+        position: unset;
+    }
+    .gnb .subtitle  li:last-child{margin-right: 0;}
+    .gnb .title{
+        height: 30px; 
+        line-height: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #f0f0f4;
+     }
+    .gnb .sub{display: block; margin: 0;}
+    
+    .gnb .subtitle .title:after{display: none;}
+    .gnb .sub > div{
+        line-height: 40px;
+        height: 40px;
+        text-indent: 10px;
+        margin-top: 10px;
+    }
+    /* header끝 */
+
+    .mpic{height: 700px;}
+    .mWrap h2{font-size:4.5rem;}
+    .mWrap p{font-size: 1.3rem;}
+    /* figure 끝 */
+
+
+    /* section */
+    .slide1{margin-right: 20px;}
+    .swiper-slide{margin: 0 20px;}
+
+    /* s1 슬라이더 끝 */
+
+    .best{font-size: unset;}
+    .s2 h4{font-size: 20px;}
+    .s2 .bestBtn{display: none;}
+    .s2 .best{display: block;}
+    /* s2 끝 */
+    
+    .s3 .guide .icon{width: 50px; height: 50px;}
+    .guide .title h4{
+        margin-left: 20px;
+        font-size: 20px;
+        width: calc(100% - 66px);
+        margin: 0 20px;
+    }
+   
+    .guide li .title a{background-color: transparent;}
+    .guide p {
+        display: block;
+        margin-left: 70px;
+    }
+    /* s3 끝 */
+    .s4 .con{display: block; }
+    .s4 .pic{
+        margin: 0 auto;
+        max-width: 136px;
+    }
+    .s4 .txt{
+        margin-top: 16px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    /* s4끝 */
+
+    
+    .f1{
+        display: block;
+        width:23%; 
+    }
+    .f1 .cs{color: #fff; margin: 32px 0; font-size: 16px;}
+    .call{
+        display: flex; 
+        align-items: center;
+        margin-bottom: 16px;
+    }
+   .call a{
+        font-size: 20px;
+        margin-right: 10%;
+        color: #fff;
+    }
+  
+    .f1 .sns{display: flex; margin-top: 32px;}
+    .f1 .sns img{height: 22px;}
+    .f1 .sns li{margin-right: 20px;}
+    /*  */
+    .f2 .fgnb{font-size: 16px;}
+    .f2{width: 40%;}
+    .f3{width: 23%;}
+   
+
+}
